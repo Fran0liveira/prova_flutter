@@ -51,7 +51,7 @@ class _AppTextFieldState extends State<AppTextField> {
           height: 10,
         ),
         TextFormField(
-          focusNode: widget.focusNode ?? FocusNode(),
+          focusNode: widget.focusNode,
           onFieldSubmitted: widget.onFieldSubmitted,
           obscureText: widget.password ?? false,
           enableSuggestions:
